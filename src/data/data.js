@@ -1,11 +1,11 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "John Doe",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    name: "Michelle Kostyk",
+    bio: "Undergraduate Architectural Student at University of Calgary striving to create a more colourful, safer, cleaner, and fun environment.",
     contact: {
-        email: "john.doe@gmail.com",
-        phone: "+12345678910",
+        email: "michkostyk@gmail.com",
+        phone: "+14313552425",
         linkedin: "https://www.linkedin.com/",
         github: "https://www.github.com/",
     }
