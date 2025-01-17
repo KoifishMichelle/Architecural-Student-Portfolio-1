@@ -37,20 +37,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
-  color: white;
+  background-color: #288671;
+  color: #c8d69c;
   z-index: 10;
 }
 
 a {
   /* Link styling */
-  color: #8da3eb;
+  color: #db873a;
   text-decoration: none;
 }
 
 a:hover {
   /* Link hover effects */
-  color: #4c6aca;
+  color: #911112;
   text-decoration: underline;
   transition: 0.2s;
 }
