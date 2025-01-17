@@ -2,7 +2,7 @@
 
 const data = {
     name: "Michelle Kostyk",
-    bio: "Undergraduate Architectural Student at University of Calgary striving to create a more colourful, safer, cleaner, and fun environment.",
+    bio: "Undergraduate Design Student at University of Calgary striving to create a more colourful, safer, cleaner, and fun environment.",
     contact: {
         email: "michkostyk@gmail.com",
         phone: "+14313552425",
