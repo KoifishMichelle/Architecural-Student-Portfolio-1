@@ -27,7 +27,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Model 1
         <div class="three-model">
-          <div id="model1"></div>
+          <img src="./Cadavre_Exquis.png" id="model1" alt="Cadavre_Exquis.png" />
         </div>
         <div id="images-description">
           <div id="images">
@@ -48,12 +48,12 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
+            ${/* Model 2 commented out
               .map(
                 (trees, index) =>
                   `<img src="${trees}" alt="tree${index + 1}" />`
               )
-              .join("")}
+              */ ""}
           </div>
           <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
         </div>
@@ -66,11 +66,11 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${/* Model 3 commented out
               .map(
                 (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
               )
-              .join("")}
+              */ ""}
           </div>
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
@@ -91,6 +91,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+//createThreeScene("#model1", "/3DModels/project1/cube.obj");
+//createThreeScene("#model2", "/3DModels/project2/tree.obj");
+//createThreeScene("#model3", "/3DModels/project3/cottage.obj");
