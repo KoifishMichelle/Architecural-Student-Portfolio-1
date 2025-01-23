@@ -3,10 +3,10 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+  "./IMG_7158.jpg",
+  "./IMG_7157.jpg",
+  "./IMG_7152.jpg",
+  "./IMG_7156.jpg",
 ];
 
 const trees = [
@@ -25,11 +25,12 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Cadavre Exquis: EverChanging
         <div class="three-model">
           <img src="./Cadavre_Exquis.png" id="model1" alt="Cadavre_Exquis.png" />
         </div>
-        <div id="images-description">
+        <div id="images-description">Nothing stays the same, everything evolves. Some patterns defy nature, others embrace it. This cadavre is meant to explore the many moving parts of our world, and how I, the creator, see them potentially in the future through a lens of the past. Many different aspects of our world are attributed to the change in our society and natural environment; such as politics, the built environment, nature, art, culture and philosophy. These are explored and my view of the world adds a certain kind of diversity and uniqueness to it, demonstrating the impact of perspective and the change of the environment.</h4>
+
           <div id="images">
             ${cubes
               .map(
@@ -94,3 +95,4 @@ document.querySelector("#app").innerHTML = `
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
 //createThreeScene("#model2", "/3DModels/project2/tree.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+
