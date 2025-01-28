@@ -29,7 +29,6 @@ document.querySelector("#app").innerHTML = `
         <div class="three-model">
           <img src="./Cadavre_Exquis.png" id="model1" alt="Cadavre_Exquis.png" />
         </div>
-        <div id="images-description">Nothing stays the same, everything evolves. Some patterns defy nature, others embrace it. This cadavre is meant to explore the many moving parts of our world, and how I, the creator, see them potentially in the future through a lens of the past. Many different aspects of our world are attributed to the change in our society and natural environment; such as politics, the built environment, nature, art, culture and philosophy. These are explored and my view of the world adds a certain kind of diversity and uniqueness to it, demonstrating the impact of perspective and the change of the environment.</h4>
 
           <div id="images">
             ${cubes
@@ -38,7 +37,7 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">Nothing stays the same, everything evolves. Some patterns defy nature, others embrace it. This cadavre is meant to explore the many moving parts of our world, and how I, the creator, see them potentially in the future through a lens of the past. Many different aspects of our world are attributed to the change in our society and natural environment; such as politics, the built environment, nature, art, culture and philosophy. These are explored and my view of the world adds a certain kind of diversity and uniqueness to it, demonstrating the impact of perspective and the change of the environment.</h4>
         </div>
       </div>
 
@@ -92,7 +91,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-//createThreeScene("#model1", "/3DModels/project1/cube.obj");
+createThreeScene("#model1", "/3DModels/project1/cube.obj");
 //createThreeScene("#model2", "/3DModels/project2/tree.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
-
