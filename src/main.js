@@ -3,10 +3,10 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./IMG_7158.jpg",
-  "./IMG_7157.jpg",
-  "./IMG_7152.jpg",
-  "./IMG_7156.jpg",
+  "./cubeDrawings/Website%20images/IMG_7158.jpg",
+  "./cubeDrawings/Website%20images/IMG_7157.jpg",
+  "./cubeDrawings/Website%20images/IMG_7152.jpg",
+  "./cubeDrawings/Website%20images/IMG_7156.jpg",
 ];
 
 const trees = [
@@ -27,7 +27,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis: EverChanging
         <div class="three-model">
-          <img src="./Cadavre_Exquis.png" id="model1" alt="Cadavre_Exquis.png" />
+          <img src="././cubeDrawings/Website%20images/Cadavre_Exquis.png" id="model1" alt="Cadavre_Exquis.png" />
         </div>
 
           <div id="images">

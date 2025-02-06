@@ -2,7 +2,7 @@
 
 const data = {
   name: "Michelle Kostyk",
-  bio: "Architectural student with a passion for design and innovation.",
+  bio: "Design student with a passion for architecture and innovation.",
   contact: {
     email: "michelle.kostyk@ucalgary.ca",
     phone: "431-355-2425",
